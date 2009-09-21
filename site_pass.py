@@ -14,6 +14,10 @@ from hashlib import md5
 import urlparse
 import string
 import random
+try:
+    import readline
+except:
+    pass
 
 #These are all the second level domains that are not sites in and of themselves
 #We will always try to find a third level domain for domains ending in the
